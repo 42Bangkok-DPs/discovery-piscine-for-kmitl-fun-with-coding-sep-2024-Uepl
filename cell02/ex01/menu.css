@@ -39,3 +39,8 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+navbar {
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
