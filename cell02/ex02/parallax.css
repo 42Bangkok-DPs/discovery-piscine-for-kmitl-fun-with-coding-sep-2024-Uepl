@@ -1,0 +1,58 @@
+body, html {
+    height: 100vh;
+  }
+  
+.parallax {
+/* The image used */
+background-image: url('https://i.insider.com/601448566dfbe10018e00c5d?width=700');
+
+/* Full height */
+height: 100vh; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+
+}
+.parallax2 {
+/* The image used */
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipy9--XoHoz5B-5uRQo9WBt9MXQYdVmQnFQ&s');
+
+/* Full height */
+height: 100vh; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+.parallax {
+    background-attachment: scroll;
+}
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 20px;
+    color: aquamarine;
+    padding: 50vh;
+    
+}
+
+.blackblock{
+    height:200px;
+    background-color:rgb(0, 0, 0);
+    font-size:38px;
+    color: wheat;
+    font-weight: 20px;
+    padding: 50vh;
+}
