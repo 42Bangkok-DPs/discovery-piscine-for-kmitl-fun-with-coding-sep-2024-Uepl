@@ -1,5 +1,5 @@
 body, html {
-    height: 100vh;
+    height: 100%;
   }
   
 .parallax {
@@ -7,7 +7,7 @@ body, html {
 background-image: url('https://i.insider.com/601448566dfbe10018e00c5d?width=700');
 
 /* Full height */
-height: 100vh; 
+height: 100%; 
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -22,7 +22,7 @@ text-align: center;
 background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipy9--XoHoz5B-5uRQo9WBt9MXQYdVmQnFQ&s');
 
 /* Full height */
-height: 100vh; 
+height: 100%; 
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -35,7 +35,7 @@ text-align: center;
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-.parallax {
+.parallax, .parallax2 {
     background-attachment: scroll;
 }
 }

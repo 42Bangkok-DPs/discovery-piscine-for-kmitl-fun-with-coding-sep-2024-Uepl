@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel='stylesheet' type="text/css" href="parallax.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.parallax {
+  background-image: url('https://i.insider.com/601448566dfbe10018e00c5d?width=700'); /* Added semicolon */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  height: 100vh; 
+}
+
+.parallax2 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipy9--XoHoz5B-5uRQo9WBt9MXQYdVmQnFQ&s');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; 
+}
+.blackblock {
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  font-size: 38px;
+  color: wheat;
+  font-weight: 200px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+.container {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.blackblock {
+  flex: 1; 
+}
+
+</style>
 </head>
-
 <body>
-<section class="parallax">
-    <h1>
-        ahahah
-    </h1>
-</section>
 
-<section class="blackblock">
-    helllo there
-</section>
-<section class="parallax2">
-    <h1>
-        ahhehehehehehe
-    </h1>
-</section>
+<div class="container">
+    <div class="parallax">
+        <h1>Parallax Section 1</h1>
+    </div>
+    <div style="background-color:red;font-size:36px;"></div>
+</div>
+<div class="blackblock" style="background-color:red;font-size:36px;margin-bottom: 0;">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+<div class="container">
+    <div class="parallax2">
+        <h1>Parallax Section 1</h1>
+    </div>
+    <div style="background-color:red;font-size:36px;"></div>
+</div>
 
 
 </body>
