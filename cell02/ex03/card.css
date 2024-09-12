@@ -1,0 +1,19 @@
+.card {
+    margin: 0 auto;
+    
+    border-color: #007bff;
+    background-color: #fff;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70vh; /* Full viewport height */
+}
+
+.top_bar {
+    height: 2.1em;
+    font-size: 1.5em;
+    min-width: 100%;
+    color: #000000;
+    text-align: center;
+    border-radius: 0.2em;
+}
