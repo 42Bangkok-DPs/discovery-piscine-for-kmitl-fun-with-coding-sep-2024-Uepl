@@ -4,11 +4,9 @@ btn.addEventListener('click', () => {
 });
 
 function changeC() { 
-  var x = Math.floor(Math.random()  
- *256),
+  var x = Math.floor(Math.random() *256),
     y = Math.floor(Math.random() * 256),
     z = Math.floor(Math.random() * 256);
 
-  return "rgb(" + x  
- + "," + y + "," + z + ")";
+  return "rgb(" + x + "," + y + "," + z + ")";
 };
