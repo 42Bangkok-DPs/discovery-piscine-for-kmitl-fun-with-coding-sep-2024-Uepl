@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+</head>
+
+<body style="text-align:left;">
+    <button onclick="myFunc()" id="btn">
+        Click here
+    </button>
+
+    <h2 id="GFG" style="color:green;"></h2>
+
+    <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', () => {
+            document.body.style.backgroundColor = changeC()
+        });
+
+        function changeC() { 
+            var x = Math.floor(Math.random() *256),
+                y = Math.floor(Math.random() * 256),
+                z = Math.floor(Math.random() * 256);
+
+            return  "rgb(" + x + "," + y + "," + z + ")";
+        };
+
+button.addEventListener("click", RBC);
+window.onload = RBC();    
+    </script>
+</body>
+
+</html>
